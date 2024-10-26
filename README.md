@@ -55,22 +55,22 @@ INFORMACIÓN DE LA APLICACIÓN
            - Android Knowledge. (2024, 24 de julio). The Weather App in Jetpack Compose using Kotlin [Video].
                - YouTube. https://www.youtube.com/watch?v=feG3HysJxZY&list=PLQ_Ai1O7sMV2e_xmAnZpmXWsR1xJMKlNl&index=6
        - Cambio del tipo de fuente:
-           Younes, C. (2023, 24 de octubre). Use Custom Fonts in Jetpack Compose Apps! [Video]. Youtube.
-               https://www.youtube.com/watch?v=vVrNmM-dtsc
+           - Younes, C. (2023, 24 de octubre). Use Custom Fonts in Jetpack Compose Apps! [Video]. Youtube.
+               - https://www.youtube.com/watch?v=vVrNmM-dtsc
        - Fuente utilizada:
-           Josefin Sans: https://fonts.google.com/share?selection.family=Josefin+Sans:ital,wght@0,100..700;1,100..700
+           - Josefin Sans: https://fonts.google.com/share?selection.family=Josefin+Sans:ital,wght@0,100..700;1,100..700
        - Agregar ícono de aplicación.
-           Dino Code. (2023, 8 de julio). 02.- Cambiar icono a aplicación | Chat App Android Studio +Kotlin + Firebase [Video]. YouTube.
-               https://www.youtube.com/watch?v=s8Jily_NI78&list=PLhcYacorV7U5EvHlkcoAKfBoL8zbbYOu7&index=4
+           - Dino Code. (2023, 8 de julio). 02.- Cambiar icono a aplicación | Chat App Android Studio +Kotlin + Firebase [Video]. YouTube.
+               - https://www.youtube.com/watch?v=s8Jily_NI78&list=PLhcYacorV7U5EvHlkcoAKfBoL8zbbYOu7&index=4
        - ícono utilizado:
-           Icono de Día Nublado: https://www.flaticon.es/icono-gratis/dia-nublado_1779765?term=sol+nubes&page=2&position=19&origin=search&related_id=1779765
+           - Icono de Día Nublado: https://www.flaticon.es/icono-gratis/dia-nublado_1779765?term=sol+nubes&page=2&position=19&origin=search&related_id=1779765
        - Agregar resursos Lottie (lo vi antes de su clase, por eso también lo pongo):
-           Dino Code. (2023, 8 de julio). 03.- Diseño de pantalla de bienvenida | Chat App Android Studio +Kotlin + Firebase [Video]. YouTube.
-               https://www.youtube.com/watch?v=TPRU90yj5XY&list=PLhcYacorV7U5EvHlkcoAKfBoL8zbbYOu7&index=4
+           - Dino Code. (2023, 8 de julio). 03.- Diseño de pantalla de bienvenida | Chat App Android Studio +Kotlin + Firebase [Video]. YouTube.
+               - https://www.youtube.com/watch?v=TPRU90yj5XY&list=PLhcYacorV7U5EvHlkcoAKfBoL8zbbYOu7&index=4
        - Recurso Lottie utilizado:
-           https://app.lottiefiles.com/animation/d89959fe-f59a-413e-9122-0a5caadc0079?channel=web&source=public-animation&panel=download
+           - https://app.lottiefiles.com/animation/d89959fe-f59a-413e-9122-0a5caadc0079?channel=web&source=public-animation&panel=download
        - Agregar menú desplegable:
-           Caro, J. (2024, 22 de octubre). Capítulo 1: Creando Componentes Personalizados en Jetpack Compose [Video]. Loom.
-               https://www.loom.com/share/644de97283bc426caf8d344cc5df59d3?sid=d232a4ed-c803-45ca-afbd-ac97597c4868
+           - Caro, J. (2024, 22 de octubre). Capítulo 1: Creando Componentes Personalizados en Jetpack Compose [Video]. Loom.
+               - https://www.loom.com/share/644de97283bc426caf8d344cc5df59d3?sid=d232a4ed-c803-45ca-afbd-ac97597c4868
        - Agregar idiomas a la aplicación:
-           Selcuk, B. (2023, 16 de abril). ADD MULTIPLE LANGUAGES IN YOUR APP - KOTLIN [Video]. YouTube. https://www.youtube.com/watch?v=ehM1JjCs9PM
+           - Selcuk, B. (2023, 16 de abril). ADD MULTIPLE LANGUAGES IN YOUR APP - KOTLIN [Video]. YouTube. https://www.youtube.com/watch?v=ehM1JjCs9PM
