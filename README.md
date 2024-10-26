@@ -8,17 +8,17 @@ INFORMACIÓN DE LA APLICACIÓN
 
 1. Nombre y propósito de la aplicación.
 
-    Nombre: WeatherApp
-    Propósito: Mostrar datos de clima de ciudades de todo el mundo.
+    - Nombre: WeatherApp
+    - Propósito: Mostrar datos de clima de ciudades de todo el mundo.
    
 2. Cómo ejecutar la aplicación.
 
-    Conexión a internet:
+    + Conexión a internet:
        - La aplicación hace uso de la API de OpenWeather para obtener los datos de clima de las ciudades. Es necesario que el dispositivo
          esté conectado a internet para que la aplicación funcione.
-    Resolución de pantalla sugerida:
+    + Resolución de pantalla sugerida:
        - 1080 x 2400 px (se diseñó tomando como base un Pixel 8a y se probó también en un Xiaomi Redmi 10s, ambos con esa resolución)
-    Requisitos para la búsqueda de datos derivados del uso de la API de OpenWeather:
+    + Requisitos para la búsqueda de datos derivados del uso de la API de OpenWeather:
        - No acepta todos los diacríticos: se puede usar diéresis, pero no tilde.
        - Es sensible a la corrección ortográfica con los diacríticos, aunque no son necesarios: acepta "Düssseldorf" u "Dusseldorf",
          pero no "Düsseldörf".
@@ -26,14 +26,14 @@ INFORMACIÓN DE LA APLICACIÓN
        - Aunque en algunos casos acepta para la misma ciudad el nombre original y el nombre en inglés ("Ciudad de México"/"Mexico City"),
          es preferible poner el nombre en el idioma original o en inglés para evitar que dé el resultado de una ciudad homónima. Por ejemplo, si se
          escribe "Nueva York" se obtiene el dato de una ciudad que se llama literalmente así, no el de New York City (NYC), New York.
-   Elección de unidades:
+   + Elección de unidades:
        - Se puede elegir entre tres unidades de medida: grados Celsius (°C), grados Farehnheit (°F) y grados Kelvin (°F). Se hace mediante
          un menú desplegable al que se accede con el botón "select unit". Los grados Celsius están especificados por defecto. La elección
          se guardada en la aplicación, por lo que no hay que volver a elegir la unidad cada vez que se reabre la aplicación.
 
 4. Descripción de los componentes principales utilizados.
 
-   Se trata de una plicación con una estructura muy básica que hace uso de tres componentes:
+   + Se trata de una plicación con una estructura muy básica que hace uso de tres componentes:
        - SplashScreen: una pantalla de inicio que muestra un recurso Lottie, el nombre de la aplicación, el nombre del proyecto y un nombre de desarrollador.
        - WeatherScreen: se encarga de estructurar y mostrar el contenido de la pantalla principal. Proporciona un recurso Lottie, el cuadro de búsqueda,
          los botones para iniciar la búsqueda y cambiar la unidad de médida, junto con sus funciones auxiliares (como el convertidor de unidades o las funciones
@@ -41,7 +41,7 @@ INFORMACIÓN DE LA APLICACIÓN
        - WeatherCard: se encarga de desplegar un grupo de tarjetas en las que se muestran los datos de la ciudad elegida: nombre, temperatura, humedad
          y una descripción breve.
 
-   Además de lo anterior, en la aplicación se usan otros archivos que son necesarios para darle funcionalidad:
+   + Además de lo anterior, en la aplicación se usan otros archivos que son necesarios para darle funcionalidad:
        - WeatherApi: un archivo de interfaz que permite obtener los datos de OpenWeather.
        - Constants: un archivo en el que se almacenan los valores constantes de la aplicación, como la llave de la API de OpenWeather, la url del sitio de OpenWeather,
          y algunos strings que no es necesario cambiar entre distintos idiomas.
@@ -50,7 +50,7 @@ INFORMACIÓN DE LA APLICACIÓN
 
 5. Recursos de apoyo.
 
-   A parte de las lecciones de la clase, se hizo uso de otros recursos en línea para resolver algunos aspectos de la aplicación:
+   + A parte de las lecciones de la clase, se hizo uso de otros recursos en línea para resolver algunos aspectos de la aplicación:
        - Conexión mediante API y estructura básica:
            - Android Knowledge. (2024, 24 de julio). The Weather App in Jetpack Compose using Kotlin [Video].
                - YouTube. https://www.youtube.com/watch?v=feG3HysJxZY&list=PLQ_Ai1O7sMV2e_xmAnZpmXWsR1xJMKlNl&index=6
