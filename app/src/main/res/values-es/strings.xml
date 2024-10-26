@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Splash Screen-->
+    <string name="by_text">Por</string>
+    <string name="loading_text">Cargando…</string>
+
+    <!--Weather Screen-->
+    <string name="city_name">Ciudad</string>
+    <string name="temperature">Temperatura</string>
+    <string name="humidity">Humedad</string>
+    <string name="weather_description">Descripción</string>
+
+    <!--Check Weather Button-->
+    <string name="check_weather_button_text">consultar clima</string>
+
+    <!--Select Unit Button-->
+    <string name="select_unit_button">seleccionar unidad</string>
+
+</resources>

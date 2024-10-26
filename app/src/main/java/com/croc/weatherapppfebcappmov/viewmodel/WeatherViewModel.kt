@@ -1,8 +1,9 @@
-package com.croc.weatherapppfebcappmov
+package com.croc.weatherapppfebcappmov.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import androidx.lifecycle.viewmodel.compose.viewModel
+import com.croc.weatherapppfebcappmov.domain.WeatherApi
+import com.croc.weatherapppfebcappmov.WeatherResponse
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch

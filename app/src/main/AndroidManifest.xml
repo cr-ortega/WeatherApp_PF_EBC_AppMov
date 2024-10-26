@@ -10,7 +10,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_weather_app"
-        android:label="@string/app_name"
+        android:label="WeatherApp"
         android:roundIcon="@mipmap/ic_weather_app_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WeatherAppPFEBCAppMov"
@@ -18,7 +18,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
+            android:label="WeatherApp"
             android:theme="@style/Theme.WeatherAppPFEBCAppMov">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
