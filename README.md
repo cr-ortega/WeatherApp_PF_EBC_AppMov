@@ -1,8 +1,8 @@
-Escuela Bancaria y Comercial
-Licenciatura en Programación y Transformación Digital
-Materia: Aplicaciones Móviles 1
-Docente: Julio César Caro Cota
-Alumno: Cristian Rafael Ortega Cruz
+- Escuela Bancaria y Comercial
+- Licenciatura en Programación y Transformación Digital
+- Materia: Aplicaciones Móviles 1
+- Docente: Julio César Caro Cota
+- Alumno: Cristian Rafael Ortega Cruz
 
 INFORMACIÓN DE LA APLICACIÓN
 
@@ -52,8 +52,8 @@ INFORMACIÓN DE LA APLICACIÓN
 
    A parte de las lecciones de la clase, se hizo uso de otros recursos en línea para resolver algunos aspectos de la aplicación:
        - Conexión mediante API y estructura básica:
-           Android Knowledge. (2024, 24 de julio). The Weather App in Jetpack Compose using Kotlin [Video].
-               YouTube. https://www.youtube.com/watch?v=feG3HysJxZY&list=PLQ_Ai1O7sMV2e_xmAnZpmXWsR1xJMKlNl&index=6
+           - Android Knowledge. (2024, 24 de julio). The Weather App in Jetpack Compose using Kotlin [Video].
+               - YouTube. https://www.youtube.com/watch?v=feG3HysJxZY&list=PLQ_Ai1O7sMV2e_xmAnZpmXWsR1xJMKlNl&index=6
        - Cambio del tipo de fuente:
            Younes, C. (2023, 24 de octubre). Use Custom Fonts in Jetpack Compose Apps! [Video]. Youtube.
                https://www.youtube.com/watch?v=vVrNmM-dtsc
