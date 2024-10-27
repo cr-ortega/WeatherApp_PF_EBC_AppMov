@@ -39,7 +39,7 @@ fun SplashScreen(onSplashFinished: () -> Unit) {
 
     val customBackgroundColor = Color(0xFFE9F7EF)
 
-    // Este LaunchedEffect se asegura de que la animación dure 3 segundos y luego cambie de pantalla
+    //LaunchedEffect que se asegura de que la animación dure 3 segundos y luego cambie de pantalla
     LaunchedEffect(key1 = true) {
         // Tiempo que dura el splash screen
         kotlinx.coroutines.delay(3000)

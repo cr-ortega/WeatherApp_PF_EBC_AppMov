@@ -57,6 +57,7 @@ import com.croc.weatherapppfebcappmov.utils.Constants
 import com.croc.weatherapppfebcappmov.viewmodel.WeatherViewModel
 import kotlin.math.roundToInt
 
+// saveSelected y getSelected manejan el almacenamiento y recuperación de la unidad de medida.
 fun saveSelectedUnit(context: Context, unit: String) {
     val sharedPreferences = context.getSharedPreferences("weather_prefs", Context.MODE_PRIVATE)
     sharedPreferences.edit().putString("selected_unit", unit).apply()
@@ -77,6 +78,7 @@ fun convertTemperature(temp: Float, unit: String): String {
     }
 }
 
+// Bloque de la pantalla principal de la aplicación, donde se gestionan los elementos visuales y de interacción.
 @Composable
 fun WeatherScreen() {
     val context = LocalContext.current
@@ -140,6 +142,7 @@ fun WeatherScreen() {
             )
             Spacer(modifier = Modifier.height(5.dp))
 
+            //Cuadro de texto de búsqueda
             OutlinedTextField(
                 value = city,
                 onValueChange = { city = it },
@@ -166,6 +169,7 @@ fun WeatherScreen() {
 
             Spacer(modifier = Modifier.height(16.dp))
 
+            //Botón de consulta del clima
             Button(
                 onClick = { viewModel.fetchWeather(city, apiKey) },
                 colors = ButtonDefaults.buttonColors(checkWeatherButtonColor),
@@ -180,7 +184,7 @@ fun WeatherScreen() {
 
             Spacer(modifier = Modifier.height(12.dp))
 
-            // Botón para seleccionar la unidad
+            // Botón para desplegar el menú de selección de unidad de medida
             Box(
 
             ) {
@@ -222,6 +226,8 @@ fun WeatherScreen() {
 
             Spacer(modifier = Modifier.height(16.dp))
 
+
+            //Tarjetas para mostrar los datos de clima.
             weatherData?.let {
                 Row(
                     modifier = Modifier.fillMaxWidth(),
@@ -257,6 +263,7 @@ fun WeatherScreen() {
         }
     }
 
+    //Datos inferiores de información de la aplicación.
     Column(
         modifier = Modifier
             .fillMaxSize()

@@ -28,6 +28,7 @@ import com.croc.weatherapppfebcappmov.ui.theme.DarkBlueJC
 import com.croc.weatherapppfebcappmov.ui.theme.DarkGreenJC
 import com.croc.weatherapppfebcappmov.ui.theme.josefinSansFamily
 
+//Generador de las tarjetas del tablero en el que se muestran los datos de clima.
 @Composable
 fun WeatherCard(label : String, value : String, icon : ImageVector) {
     Card(modifier = Modifier
